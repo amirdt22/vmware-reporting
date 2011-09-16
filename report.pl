@@ -1,5 +1,8 @@
 #!/bin/perl 
-# report on vms in a host
+# summary: report on vms in a host, use the -? flag to see the usage
+# author: Amir Tahvildaran amirdt22@gmail.com
+# warranty: none
+# license: whatever
 
 use Getopt::Std;
 
