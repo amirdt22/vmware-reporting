@@ -77,6 +77,7 @@ sub run() {
 }
 
 sub help() {
+  print "ahead of time you'll want to set up your credentials (credstore_admin.pl)\n";
   print "-H host : esxi host to connect to (required)\n";
   print "-r report : image to report on (partial/pattern ok) \n";
   print "-l : print listing of all images on host \n";
