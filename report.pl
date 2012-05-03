@@ -14,7 +14,7 @@ my $help = $opts{'h'} || $opts{'?'};
 help() if $help;
 
 my $cmd = 'vmware-cmd';
-my $host = $opts{'H'} || die;
+my $host = $opts{'H'} || die "must specify host";
 my $stdcmd = "$cmd -H $host ";
 
 my $report = $opts{'r'} || '.';

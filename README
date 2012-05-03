@@ -1,1 +1,12 @@
 wrapper for vmware-cmd to report on guests in an esxi host
+
+== USAGE ==
+perl report.pl -H barium.mathforum.org
+
+== SETUP ==
+install vmware tools
+export PERL5LIB=/usr/share/perl/5.10.1
+export PERL_LWP_SSL_VERIFY_HOSTNAME=0
+
+run credstore first
+
